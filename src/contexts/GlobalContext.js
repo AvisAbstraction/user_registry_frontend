@@ -2,8 +2,8 @@ import React, { createContext, useState } from "react";
 
 const initialCtx = {
   GlobalCtx: {
-    appName: "My App",
-    appDomain: "",
+    appName: "User Registry",
+    appDomain: "http://localhost:3000/",
   },
   setGlobalCtx: () => null,
 };

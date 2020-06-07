@@ -1,12 +1,9 @@
 import React, { useState, createContext } from "react";
-import { apiUrl, token, homepage, graphqlUrl } from "../config";
+import { apiUrl } from "../config";
 
 const initialCtx = {
   NetworkCtx: {
     apiUrl,
-    token,
-    homepage,
-    graphqlUrl,
   },
 };
 
